@@ -1,10 +1,10 @@
 # EDM-Portfolio
 This is my Repository
 ### About Me
-Hi I my name is..blah blah.....
+Hi my name is Miguel Cabrera I am a first year student and took a BSIS course!
 ### Education:
 - College: City College of Angeles (BSIS)
-- High School:
-- Elementary:
+- High School: Holy Angel University, Francisco G. Nepomuceno Memorial Highschool
+- Elementary: Achievers Special Education Center
 ### My Projects
 - Midterm Lab Task 1:[Data Cleaning and Preparation using Excel](Midterm%20Task%201/task1.md)
