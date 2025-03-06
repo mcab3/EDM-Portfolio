@@ -12,8 +12,9 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 - Perform 3 NF
 - Mapped the Normalized tables as a Physical Data Model
 ## STEP 3 Here's the screenshot of my output before I started data cleaning (See screenshot)
-<img src="images/1.JPG" alt="Alt Text" width="400" height="300">
+![screenshot](/Midterm%20Lab%20Task%201/images/Before.png)
 
 ## STEP 4 Here's the screenshot of my output after I started data cleaning (See screenshot)
-![Sample Output](images/1.JPG)
+![screenshot](/Midterm%20Lab%20Task%201/images/After.png)
 ## Here's the Physical Data Model
+![screenshot](/Midterm%20Lab%20Task%201/images/Relation.PNG)
