@@ -8,4 +8,4 @@ Hi my name is Miguel Cabrera I am a first year student and took a BSIS course!
 - Elementary: Achievers Special Education Center
 ### My Projects
 - Midterm Lab Task 1:[Data Cleaning and Preparation using Excel](Midterm%20Task%201/task1.md)
-- Midterm Lab Task 2:[Data Cleaning and Preparation using POWER QUERY](Midterm%20Task%202)
+- Midterm Lab Task 2:[Data Cleaning and Preparation using POWER QUERY](Midterm%20Task%202/task2.md)
