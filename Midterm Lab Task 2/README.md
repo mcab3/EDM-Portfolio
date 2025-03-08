@@ -40,7 +40,7 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 
 ## Part 2: **Reshape and Group the Tables**
 ### 1. Duplicate the Raw Data for "Sal By Role Type"
-- Duplicate the `Unclean DS Jobs` query.
+- Duplicate the Unclean DS Jobs query.
 - Rename the query to **Sal By Role Type dup**.
 
 ### 2. Select Columns and Transform Data for "Sal By Role Type"
