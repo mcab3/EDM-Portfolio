@@ -35,8 +35,10 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 
 ## Screenshots
 
-- **Before Cleaning**: ![Before Cleaning](/Midterm%20Lab%20Task%202/images/old.PNG)
-- **After Cleaning**: ![After Cleaning](/Midterm%20Lab%20Task%202/images/uncleanpic1.PNG)
+- **Before Cleaning**: ![1.Before Cleaning](/Midterm%20Lab%20Task%202/images/old.PNG)
+- **After Cleaning**: ![2.After Cleaning](/Midterm%20Lab%20Task%202/images/uncleanpic1.PNG)
+- [2.1](/Midterm%20Lab%20Task%202/images/uncleanpic2.PNG)
+- [2.2](/Midterm%20Lab%20Task%202/images/uncleanpic3.PNG)
 
 ## Part 2: **Reshape and Group the Tables**
 ### 1. Duplicate the Raw Data for "Sal By Role Type"
