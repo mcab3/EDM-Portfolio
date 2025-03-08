@@ -1,5 +1,5 @@
 # Midterm Lab Task 2 - Data Cleaning and Preparation using Power Query
-This portfolio contains the steps I followed for cleaning, transforming, and reshaping job posting data using **Power Query Editor** in Excel. 
+This portfolio contains the steps I followed for cleaning, transforming, and reshaping job posting data using Power Query Editor in Excel. 
 ### Data Cleaning and Transformation Steps
 
 ## Part 1: Data Cleaning and Transformation Steps
