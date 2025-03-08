@@ -6,7 +6,7 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 
 ### 1. **Data Import and Initial Cleaning**
 - Loading the Data**: The raw data is loaded from a CSV file.
-- Cleaning Salary Estimate**: We remove unwanted characters from the `Salary Estimate` column (text after the opening parenthesis) to clean the data.
+- Cleaning Salary Estimate**: We remove unwanted characters from the Salary Estimate column (text after the opening parenthesis) to clean the data.
 - Creating Min and Max Salary Columns**: Using the extracted salary values, two new columns Min Sal and Max Sal are created to represent the salary range for each job.
 
 ### 2. **Role Classification**
@@ -22,10 +22,10 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - **Splitting Location**: The location column is split into two parts: one for the location and another for the state abbreviation.
 
 ### 4. **Handling Negative Values**
-- **Cleaning Negative Values**: We remove or filter out invalid negative values from columns like `Competitors`, `Revenue`, and `Industry`.
+- **Cleaning Negative Values**: We remove or filter out invalid negative values from columns like Competitors, Revenue, and Industry.
 
 ### 5. **Handling Company Size**
-- **Splitting Company Size**: The `Size` column is split into two parts: `MinCompanySize` and `MaxCompanySize`.
+- **Splitting Company Size**: The `Size` column is split into two parts: MinCompanySize and MaxCompanySize.
 
 ### 6. **Final Cleanup**
 - **Cleaning Company Names**: We remove the word "Rates" from company names.
@@ -38,7 +38,7 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - **Before Cleaning**: ![Before Cleaning](screenshots/before_cleaning.png)
 - **After Cleaning**: ![After Cleaning](screenshots/after_cleaning.png)
 
-## Part 2: Reshape and Group the Tables
+## Part 2: **Reshape and Group the Tables**
 ### 1. Duplicate the Raw Data for "Sal By Role Type"
 - Duplicate the `Unclean DS Jobs` query.
 - Rename the query to **Sal By Role Type dup**.
@@ -82,5 +82,4 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - Insert screenshots for:
   - **Sal By Role Type** query
   - **Sal By State** query
-  - Final grouped data
-
+  
