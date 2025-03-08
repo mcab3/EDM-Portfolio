@@ -1,106 +1,77 @@
 # Midterm Lab Task 2 - Data Cleaning and Preparation using Power Query
-- This portfolio shows how to use Power Query for data preparation and cleansing. The dataset is made up of several connected tables, and before analysis, cleaning methods are used to enhance the consistency and quality of the data.
+This portfolio contains the steps I followed for cleaning, transforming, and reshaping job posting data using **Power Query Editor** in Excel. 
+## Key Tasks
 
+1. **Data Cleaning and Transformation**
+    - Removed unnecessary characters and outliers.
+    - Extracted salary estimates and split columns.
+    - Cleaned up the location and company size columns.
 
-## Step 1 Download and Load Data
-- Download the dataset (Uncleaned_DS_jobs.csv)  
-- Open Excel  
-- Go to Data → New Query → Open File → Text/CSV
-- Click Load and then Edit using Power Query Editor
-### Duplicate Raw Data
-- Right-click the dataset in the Queries pane  
-- Select Duplicate
-### Clean Salary Data
-- Select the Salary Estimate column  
-- Go to Transform Menu → Extract → Text Before Delimiter  
-- Type "(" and click OK  
-- Create two new columns: Min Salary and Max Salary  
-   - Select Salary Estimate column → Add Column Menu → Column from Examples → From Selections  
-   - Type the first min salary value and press Enter (all rows will auto-fill)  
-   - Rename the column to "Min Sal"  
-   - Repeat the process for Max Salary  
-  
+2. **Reshaping the Data**
+    - Grouped salary data by role type, company size, and state.
+    - Calculated average minimum and maximum salaries for each grouping.
 
-## Step 2 Add Role Type Column
-- Go to Add Column Menu → Custom Column  
-- Rename the column to "Role Type"  
-- Use this logic:  
-   - If Job Title contains "Data Scientist" → Assign "Data Scientist"  
-   - If Job Title contains "Data Analyst" → Assign "Data Analyst"  
-   - If Job Title contains "Data Engineer" → Assign "Data Engineer"  
-   - If Job Title contains "Machine Learning" → Assign "Machine Learning Engineer"  
-   - Otherwise, assign "Other"  
-- Change the column type to Text  
+## Queries and Their Steps
 
-## Step 3 Split Location Column
-- Select the Location column
--  Add a Custom Column with corrections:  
-   - If Location = "New Jersey" → Assign ", NJ"  
-   - If Location = "Remote" or "United States" → Assign ", Other"  
-   - If Location = "Texas" → Assign ", TX"  
-   - If Location = "California" → Assign ", CA"  
-- Click OK, then select the new column  
-- Go to Transform → Split Column → By Delimiter (comma ",")  
-- Click OK  
-- Rename the second split column to "State Abbreviations"  
-- Check and replace incorrect values (e.g., "Anne Rundell" → "MA")  
+### 1. **Data Cleaning**
 
+#### a. Salary Estimate Extraction
+- **Action**: Removed characters after the parentheses in the `Salary Estimate` column to retain only the numeric salary range.
+- **Steps**:
+    1. Used **Transform** → **Extract** → **Text Before Delimiter** to remove any characters after the `(` symbol.
 
-## Step 4 Split Size Column
-- Create two new columns: MinCompanySize and MaxCompanySize  
-- Use the same method as Salary Estimate to split values
-### Handle Negative Values
-- Filter out -1s from the Competitors column  
-- Filter out 0s from the Revenues column  
-- Remove -1s from the Industry column
-### Clean Company Names
-- Remove any extra characters or ratings after company names
-### Copy Cleaning Steps as Proof 
-- Go to Home Menu → Click Advanced Editor  
-- Copy and save the code in your portfolio
+#### b. Creating Min and Max Salary Columns
+- **Action**: Created two new columns: `Min Sal` and `Max Sal`, extracting the minimum and maximum values from the `Salary Estimate`.
+- **Steps**:
+    1. Used **Add Column** → **Column from Examples** to create `Min Sal` and `Max Sal` columns.
+    2. Used **Transform** → **Multiply** to scale salary values by 1000 for accuracy.
 
-## Step 5 Reshape and Group Data
-### Group by Role Type
-- Duplicate the raw data → Rename it as "Sal By Role Type dup"
-- Select only Role Type, Min Salary, and Max Salary columns  
-- Change Min and Max Salary type to currency  
-- Multiply values by 1000 (Numbers Column → Standard → Multiply → Type 1000)  
-- Group rows by Role Type and get the average for Min and Max Salary
+#### c. Role Type Classification
+- **Action**: Grouped `Job Title` values into five categories: "Data Scientist", "Data Analyst", "Data Engineer", "Machine Learning Engineer", and "Other".
+- **Steps**:
+    1. Used **Add Column** → **Custom Column** with conditional statements to classify job titles into specific roles based on keywords.
 
-### Group by Company Size  
-- Create a reference of raw data → Rename it as "Sal By Role Size ref"
-- Select only Size, Min Salary, and Max Salary columns  
-- Change Min and Max Salary type to currency  
-- Multiply values by 1000  
-- Group rows by Size and get the average for Min and Max Salary  
+#### d. Location Column Correction and Split
+- **Action**: Standardized location names (e.g., "California" to "CA") and split the `Location` column by a comma.
+- **Steps**:
+    1. Created a **Custom Column** to correct and standardize location abbreviations.
+    2. Split the `Location` column by delimiter (`,`).
+    3. Filtered and replaced values for states with incorrect entries (e.g., "Anne Rundell" to "MA").
 
+#### e. Company Size Column Split
+- **Action**: Split the `Company Size` column into `MinCompanySize` and `MaxCompanySize`.
+- **Steps**:
+    1. Used the **Split Column** method by delimiter to extract the minimum and maximum values.
 
-## Step 6 Merge State Mapping
-- Click Unclean DS Jobs  
-- Right-click in the Queries pane → New Query → Open Workbook State Mapping  
-- Select the columns and click OK  
-- Select Uncleaned DS Jobs query  
-- Choose the State Abbreviation column in both queries  
-- Click Merge → Click OK  
-- Rename the merged column as "State Full Name"  
-- Remove nulls and blanks  
+#### f. Outlier Handling
+- **Action**: Removed outliers for the following columns:
+    - Competitors: Filtered out `-1` values.
+    - Revenues: Filtered out `0` values.
+    - Industry: Filtered out `-1` values.
 
-## Step 7 Group by State
-- Create a reference of raw data → Rename it as "Sal By State ref"  
-- Select only State Full Name, Min Salary, and Max Salary columns  
-- Change Min and Max Salary type to currency  
-- Multiply values by 1000  
-- Group rows by State Full Name and get the average for Min and Max Salary
+#### g. Cleaning Company Name
+- **Action**: Cleaned company names by removing any `Rates` text that appeared after the company name.
 
-## Step 13: View Query Dependencies  
-- Go to View Menu → Click Dependencies  
-- Check if all queries are correctly linked 
+---
 
-## Here's the screenshot of my output before I started data cleaning
-<img src="Images/QueryNaMadumi.png" alt="Alt Text" Width="900" heigth="300">
+### 2. **Reshaping the Data**
 
-## Here's the screenshot of my output after I started data cleaning
-<img src="Images/QueryNaMalinis.png" alt="Alt Text" Width="900" heigth="300">
+#### a. **Sal By Role Type Query (Duplicate)**
+- **Action**: Grouped salary estimates by job role type and calculated average minimum and maximum salaries.
+- **Steps**:
+    1. Duplicated the raw data.
+    2. Selected relevant columns: `Role Type`, `Min Sal`, `Max Sal`.
+    3. Changed data type of `Min Sal` and `Max Sal` to `Currency`.
+    4. Multiplied the salary values by 1000.
+    5. Grouped the rows by `Role Type` and calculated average salaries.
 
-## Here's the screenshot of the Query Dependencies
-<img src="Images/Query Dependency.png" alt="Alt Text" Width="900" heigth="300">
+**M Code for Sal By Role Type**:
+```m
+let
+    Source = #"Unclean DS Jobs",
+    SelectColumns = Table.SelectColumns(Source,{"Role Type", "Min Sal", "Max Sal"}),
+    ChangedType = Table.TransformColumnTypes(SelectColumns,{{"Min Sal", Currency.Type}, {"Max Sal", Currency.Type}}),
+    MultipliedColumns = Table.TransformColumns(ChangedType, {{"Min Sal", each _ * 1000, type currency}, {"Max Sal", each _ * 1000, type currency}}),
+    GroupedRows = Table.Group(MultipliedColumns, {"Role Type"}, {{"Min Sal Average", each List.Average([Min Sal]), type currency}, {"Max Sal Average", each List.Average([Max Sal]), type currency}})
+in
+    GroupedRows
