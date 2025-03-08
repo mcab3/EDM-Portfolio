@@ -87,4 +87,8 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
   - ![**Sal By State** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20State%20ref.PNG)
   - ![**Sal By Size Role Type** query](/Midterm%20Lab%20Task%202/images/sal%20by%20size%20role%20type.PNG)
   - ![**Sal By State** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20State%20ref.PNG)
+ 
+  ### Screenshot of Query Dependencies
+  ![Query Dependency](/Midterm%20Lab%20Task%202/images/dependency.PNG)
+ 
   
