@@ -84,6 +84,6 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - Insert screenshots for:
   - [**Sal By Role Type** query](/Midterm%20Lab%20Task%202/images/uncleanpic1.PNG)
   - 
-  - [**Sal By Role Size** query](/Midterm%20Lab%20Task%202/images/Sal by Size ref.PNG)
+  - [**Sal By Role Size** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20Size%20ref.PNG)
   - [**Sal By State** query](/Midterm%20Lab%20Task%202/images/uncleanpic1.PNG)
   
