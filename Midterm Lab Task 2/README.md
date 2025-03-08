@@ -10,7 +10,7 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - Creating Min and Max Salary Columns**: Using the extracted salary values, two new columns Min Sal and Max Sal are created to represent the salary range for each job.
 
 ### 2. **Role Classification**
-- **Grouping Job Titles**: A new column called `Role Type` is created to classify the job titles into five categories:
+- Grouping Job Titles: A new column called `Role Type` is created to classify the job titles into five categories:
   - Data Scientist
   - Data Analyst
   - Data Engineer
