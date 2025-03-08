@@ -1,4 +1,4 @@
-# Midterm Task 2 - Data Cleaning and Preparation using Power Query
+# Midterm Lab Task 2 - Data Cleaning and Preparation using Power Query
 - This portfolio shows how to use Power Query for data preparation and cleansing. The dataset is made up of several connected tables, and before analysis, cleaning methods are used to enhance the consistency and quality of the data.
 
 
