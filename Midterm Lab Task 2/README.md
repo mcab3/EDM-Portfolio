@@ -15,15 +15,15 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 
 ### 1. **Data Cleaning**
 
-#### a. Salary Estimate Extraction
+### a. Salary Estimate Extraction
 - **Action**: Removed characters after the parentheses in the `Salary Estimate` column to retain only the numeric salary range.
 - **Steps**:
     1. Used **Transform** → **Extract** → **Text Before Delimiter** to remove any characters after the `(` symbol.
 
-#### b. Creating Min and Max Salary Columns
+### b. Creating Min and Max Salary Columns
 - **Action**: Created two new columns: `Min Sal` and `Max Sal`, extracting the minimum and maximum values from the `Salary Estimate`.
 - **Steps**:
-    1. Used **Add Column** → **Column from Examples** to create `Min Sal` and `Max Sal` columns.
+    1. Used **Add Column** → **Column from Examples** to create Min Sal and Max Sal columns.
     2. Used **Transform** → **Multiply** to scale salary values by 1000 for accuracy.
 
 #### c. Role Type Classification
@@ -43,13 +43,13 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - **Steps**:
     1. Used the **Split Column** method by delimiter to extract the minimum and maximum values.
 
-#### f. Outlier Handling
+### f. Outlier Handling
 - **Action**: Removed outliers for the following columns:
     - Competitors: Filtered out `-1` values.
     - Revenues: Filtered out `0` values.
     - Industry: Filtered out `-1` values.
 
-#### g. Cleaning Company Name
+### g. Cleaning Company Name
 - **Action**: Cleaned company names by removing any `Rates` text that appeared after the company name.
 
 ---
