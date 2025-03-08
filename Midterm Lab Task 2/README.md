@@ -2,6 +2,8 @@
 This portfolio contains the steps I followed for cleaning, transforming, and reshaping job posting data using **Power Query Editor** in Excel. 
 ### Data Cleaning and Transformation Steps
 
+## Data Cleaning and Transformation Steps
+
 ### 1. **Data Import and Initial Cleaning**
 - **Loading the Data**: The raw data is loaded from a CSV file.
 - **Cleaning Salary Estimate**: We remove unwanted characters from the `Salary Estimate` column (text after the opening parenthesis) to clean the data.
@@ -36,4 +38,3 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - **Before Cleaning**: ![Before Cleaning](screenshots/before_cleaning.png)
 - **After Cleaning**: ![After Cleaning](screenshots/after_cleaning.png)
 
----
