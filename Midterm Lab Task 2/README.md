@@ -35,10 +35,10 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 
 ## Screenshots
 
-- **Before Cleaning**: ![1.Before Cleaning](/Midterm%20Lab%20Task%202/images/old.PNG)
-- **After Cleaning**: ![2.After Cleaning](/Midterm%20Lab%20Task%202/images/uncleanpic1.PNG)
-- ![2.1](/Midterm%20Lab%20Task%202/images/uncleanpic2.png)
-- ![2.2](/Midterm%20Lab%20Task%202/images/uncleanpic3.png)
+- **1.Before Cleaning**: ![1.Before Cleaning](/Midterm%20Lab%20Task%202/images/old.PNG)
+- **2.After Cleaning**: ![2.After Cleaning](/Midterm%20Lab%20Task%202/images/CLEANED1.PNG)
+- **2.1**![2.1](/Midterm%20Lab%20Task%202/images/CLEANED1.2.PNG)
+- **2.2**![2.2](/Midterm%20Lab%20Task%202/images/CLEANED1.3.PNG)
 
 ## Part 2: **Reshape and Group the Tables**
 ### 1. Duplicate the Raw Data for "Sal By Role Type"
@@ -78,17 +78,17 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - **Sal By Role Type dup**: Grouped salary data by role type.
 - **Sal By Role Size ref**: Grouped salary data by company size.
 - **Sal By State ref**: Grouped salary data by state.
+- **Sal By Size Role Type dup**: Grouped salary data by company size and role type.
 - **Uncleaned DS Jobs**: Raw dataset used for transformations.
 
 ### Screenshots of Queries
 - Insert screenshots for:
-  - ![**Sal By Role Type** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20Role%20Type%20dup.PNG)
-  - ![**Sal By Role Size** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20Size%20ref.PNG)
-  - ![**Sal By State** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20State%20ref.PNG)
-  - ![**Sal By Size Role Type** query](/Midterm%20Lab%20Task%202/images/sal%20by%20size%20role%20type.PNG)
-  - ![**Sal By State** query](/Midterm%20Lab%20Task%202/images/Sal%20by%20State%20ref.PNG)
+  - **•Sal By Role Type**![**Sal By Role Type** query](/Midterm%20Lab%20Task%202/images/roletype.PNG)
+  - **•Sal By Role Size**![**Sal By Role Size** query](/Midterm%20Lab%20Task%202/images/rolesize.PNG)
+  - **•Sal By State**![**Sal By State** query](/Midterm%20Lab%20Task%202/images/state$20ref.PNG)
+  - **•Sal By Size Role Type**![**Sal By Size Role Type** query](/Midterm%20Lab%20Task%202/images/roletypesize.PNG)
  
   ### Screenshot of Query Dependencies
-  ![Query Dependency](/Midterm%20Lab%20Task%202/images/dependency.PNG)
+  ![Query Dependency](/Midterm%20Lab%20Task%202/images/QRYDEPENDENCY.PNG)
  
   
