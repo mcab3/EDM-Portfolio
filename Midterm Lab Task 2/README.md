@@ -85,7 +85,7 @@ This portfolio contains the steps I followed for cleaning, transforming, and res
 - Insert screenshots for:
   - **•Sal By Role Type**![**Sal By Role Type** query](/Midterm%20Lab%20Task%202/images/roletype.PNG)
   - **•Sal By Role Size**![**Sal By Role Size** query](/Midterm%20Lab%20Task%202/images/rolesize.PNG)
-  - **•Sal By State**![**Sal By State** query](/Midterm%20Lab%20Task%202/images/state$20ref.PNG)
+  - **•Sal By State**![**Sal By State** query](/Midterm%20Lab%20Task%202/images/state%20ref.PNG)
   - **•Sal By Size Role Type**![**Sal By Size Role Type** query](/Midterm%20Lab%20Task%202/images/roletypesize.PNG)
  
   ### Screenshot of Query Dependencies
