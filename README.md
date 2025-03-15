@@ -9,4 +9,4 @@ Hi my name is Miguel Joshua B. Cabrera I am a first year student and took a BSIS
 ### My Projects
 - Midterm Lab Task 1:[Data Cleaning and Preparation using Excel](https://github.com/mcab3/EDM-Portfolio/tree/main/Midterm%20Lab%20Task%201)
 - Midterm Lab Task 2:[Data Cleaning and Preparation using POWER QUERY](https://github.com/mcab3/EDM-Portfolio/tree/main/Midterm%20Lab%20Task%202)
-- Midterm Lab Task 3:[Creating PIVOT TABLE and DASHBOARD]
+- Midterm Lab Task 3:[Creating PIVOT TABLE and DASHBOARD](https://github.com/mcab3/EDM-Portfolio/tree/main/Midterm%20Lab%20Task%203)
