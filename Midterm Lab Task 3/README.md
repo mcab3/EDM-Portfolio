@@ -1,7 +1,6 @@
 # Midterm Lab Task 3 - Creating PIVOT TABLE and DASHBOARD
 
-
-This task provides a Data Science Dashboard to analyze job data related to salaries, roles, states, and company sizes. The dashboard includes PivotTables, charts, and interactive slicersfor exploring and visualizing the data.
+This project provides a Data Science Dashboard to analyze job data related to salaries, roles, states, and company sizes. The dashboard includes **PivotTables**, **charts**, and **interactive slicers** for exploring and visualizing the data.
 
 ---
 
@@ -72,5 +71,37 @@ Slicers allow users to filter the data interactively.
 
 ### 1. **Insert Slicers**
    - Click any Pivot Table and go to **PivotTable Analyze > Insert Slicer**.
-   - 
+   - Add slicers for:
+     - `Role Type`
+     - `State`
+     - `Company Size`
+
+### 2. **Link Slicers to Pivot Tables**
+   - Right-click each slicer and select **Report Connections**.
+   - Link each slicer to all Pivot Tables so that they control the entire dashboard's data.
+
+---
+
+## Step 5: Finalize Design
+
+### 1. **Add a Map (If Supported)**
+   - If you are using **Excel 365 or later**, you can add a **Filled Map** to visualize data by state.
+   - Go to **Insert > Map > Filled Map**.
+
+### 2. **Design the Layout**
+   - Organize the Pivot Tables, charts, and slicers in a way that is easy to read and visually appealing.
+   - Apply a **consistent color scheme** to improve the overall look and readability.
+
+---
+
+## Step 6: Review and Save
+
+### 1. **Test Your Dashboard**
+   - Ensure the slicers are working properly, and the data is displayed correctly in each Pivot Table.
+   - Test the interactivity by adjusting the slicers and verifying that all related charts and tables update accordingly.
+
+### 2. **Save Your Work**
+   - Save your **Excel workbook** and make sure to back it up.
+
+---
 
