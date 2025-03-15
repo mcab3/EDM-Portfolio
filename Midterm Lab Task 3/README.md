@@ -45,7 +45,7 @@ Pivot Tables are essential for summarizing data and creating the foundation of t
 
 ### 1. **State with Most Data Science Jobs**
    - Create a Pivot Table that **counts the number of jobs** by state.
-   - Drag Stat to **Rows** and `Job Role` to **Values** (set to **Count**).
+   - Drag Stat to **Rows** and Job Role to **Values** (set to **Count**).
 
 ### 2. **Highest Paying Job Role**
    - Use the "Salary by Role" Pivot Table to display the job role with the highest average salary.
