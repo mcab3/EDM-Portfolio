@@ -1,7 +1,8 @@
 # EDM-Portfolio
 This is my Repository
 ### About Me
-Hi my name is Miguel Joshua B. Cabrera I am a first year student and took a BSIS course in CCA! My goal is to pass every subject and be able to move forward.
+Hi my name is Miguel Joshua B. Cabrera I am a first year student and took a BSIS course in CCA!
+My goal is to pass every subject and be able to move forward.
 ### Education:
 - College: City College of Angeles (BSIS)
 - High School: Holy Angel University, Francisco G. Nepomuceno Memorial Highschool
