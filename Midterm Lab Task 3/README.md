@@ -1,6 +1,6 @@
 # Midterm Lab Task 3 - Creating PIVOT TABLE and DASHBOARD
 
-This project provides a Data Science Dashboard to analyze job data related to salaries, roles, states, and company sizes. The dashboard includes PivotTables, **charts, and interactive slicers for exploring and visualizing the data.
+This project provides a Data Science Dashboard to analyze job data related to salaries, roles, states, and company sizes. The dashboard includes PivotTables, charts, and interactive slicers for exploring and visualizing the data.
 
 ---
 
