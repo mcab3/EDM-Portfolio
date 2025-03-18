@@ -13,7 +13,7 @@ My current goal while in college is to pass every subject and graduate so that I
 - College: City College of Angeles (BSIS)
 - High School: Holy Angel University, Francisco G. Nepomuceno Memorial Highschool (GAS)
 - Elementary: Achievers Special Education Center
-### My Projects
+### My Projects:
 - Midterm Lab Task 1:[Data Cleaning and Preparation using Excel](https://mcab3.github.io/Midterm-Lab-Task-1/)
 - Midterm Lab Task 2:[Data Cleaning and Preparation using Power Query](https://mcab3.github.io/Midterm-Lab-Task-2/)
 - Midterm Lab Task 3:[Creating Pivot Table and Dashboard](https://mcab3.github.io/Midterm-Lab-Task-3/)
