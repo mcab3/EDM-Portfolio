@@ -2,7 +2,7 @@
 This Portfolio contains of the processes and results of the works I have learned in Enterprise Data Management subject.
 
 ### About Me
-<img src="images/f69964a8-5d91-42c1-aacf-3ae82ff1670f.jpeg" alt="Alt Text" Width="600" heigth="200">
+<img src="pfp/f69964a8-5d91-42c1-aacf-3ae82ff1670f.jpeg" alt="Alt Text" Width="600" heigth="200">
 Hi ! my name is Miguel Joshua B. Cabrera I am a first year student and took a BSIS course in CCA.
 I am currently 20 years old and I like playing online games and drawing something. 
 My current goal while in college is to pass every subject and graduate so that I can full my dream in the meantime.
