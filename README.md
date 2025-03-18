@@ -15,5 +15,5 @@ My current goal while in college is to pass every subject and graduate so that I
 - Elementary: Achievers Special Education Center
 ### My Projects
 - Midterm Lab Task 1:[Data Cleaning and Preparation using Excel](https://mcab3.github.io/Midterm-Lab-Task-1/)
-- Midterm Lab Task 2:[Data Cleaning and Preparation using POWER QUERY](https://mcab3.github.io/Midterm-Lab-Task-2/)
-- Midterm Lab Task 3:[Creating PIVOT TABLE and DASHBOARD](https://mcab3.github.io/Midterm-Lab-Task-3/)
+- Midterm Lab Task 2:[Data Cleaning and Preparation using Ppwer Query](https://mcab3.github.io/Midterm-Lab-Task-2/)
+- Midterm Lab Task 3:[Creating Pivot Table and Dashboard](https://mcab3.github.io/Midterm-Lab-Task-3/)
