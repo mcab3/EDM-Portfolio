@@ -18,6 +18,6 @@ My current goal while in college is to pass every subject and graduate so that I
 - Midterm Lab Task 2:[Data Cleaning and Preparation using Power Query](https://mcab3.github.io/Midterm-Lab-Task-2/)
 - Midterm Lab Task 3:[Creating Pivot Table and Dashboard](https://mcab3.github.io/Midterm-Lab-Task-3/)
 
-- Finals Lab Task 1: [MySQL Basics](https://mcab3.github.io/Finals-Lab-Task-1-MySQL-Basics/)
+- Finals Lab Task 1: [MySQL Basics](https://mcab3.github.io/Finals-Lab-Task-1/)
 - Finals Lab Task 2:
 - Finals Lab Task 3:
