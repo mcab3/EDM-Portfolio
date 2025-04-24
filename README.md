@@ -21,4 +21,4 @@ My current goal while in college is to pass every subject and graduate so that I
 - Finals Lab Task 1: [MySQL Basics](https://mcab3.github.io/Finals-Lab-Task-1/)
 - Finals Lab Task 2: [Transforming ER Model to Relational Table](https://mcab3.github.io/Finals-Lab-Task-2/)
 - Finals Lab Task 3: [Data Manipulation](https://mcab3.github.io/Finals-Lab-Task-3/)  
-- Finals Lab Task 3.1: [Using MYSQL Clause]
+- Finals Lab Task 3.1: [Using MYSQL Clause](https://mcab3.github.io/Finals-Lab-Task-3-1/)
