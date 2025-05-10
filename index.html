@@ -1,148 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Peaceful Cloudy Day</title>
+  <meta charset="UTF-8">
+  <title>Cabrera's EDM Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {
+    body, html {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-    }
-
-    html, body {
-      height: 100%;
-      font-family: 'Georgia', serif;
-      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      font-family: 'Nunito', sans-serif;
+      background: url('https://i.imgur.com/8PWl1mB.gif') no-repeat center center fixed;
       background-size: cover;
-      color: #f9f9f9;
+      height: 100%;
       overflow: hidden;
-      position: relative;
     }
 
-    /* Cloudy border effect */
-    .cloudy-border {
+    .loading-screen {
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
+      z-index: 9999;
+      background: rgba(255, 255, 255, 0.9);
       height: 100%;
-      pointer-events: none;
-      z-index: 1;
-      background: 
-        radial-gradient(ellipse at top left, rgba(255,255,255,0.2), transparent 70%),
-        radial-gradient(ellipse at top right, rgba(255,255,255,0.2), transparent 70%),
-        radial-gradient(ellipse at bottom left, rgba(255,255,255,0.2), transparent 70%),
-        radial-gradient(ellipse at bottom right, rgba(255,255,255,0.2), transparent 70%);
-      backdrop-filter: blur(8px);
-    }
-
-    #loading-screen {
-      position: fixed;
-      top: 0;
-      left: 0;
       width: 100%;
-      height: 100%;
-      background-color: #000;
       display: flex;
       align-items: center;
       justify-content: center;
-      z-index: 9999;
+      flex-direction: column;
       transition: opacity 0.5s ease;
     }
 
-    #loading-screen img {
-      width: 100px;
-      height: 100px;
+    .doge-gif {
+      width: 120px;
+      margin-bottom: 20px;
     }
 
-    #main-content {
+    .content-box {
       display: none;
-      padding: 2rem;
+      max-width: 800px;
+      margin: 100px auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      backdrop-filter: blur(4px);
       overflow-y: auto;
-      height: 100%;
-      position: relative;
-      z-index: 2;
     }
 
-    #music-toggle {
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .music-player {
       position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #ffffffdd;
-      color: #111;
-      border: none;
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
-      border-radius: 10px;
-      cursor: pointer;
-      z-index: 1001;
-      transition: background-color 0.3s ease;
-    }
-
-    #music-toggle:hover {
-      background-color: #dddddd;
+      top: 10px;
+      right: 10px;
+      z-index: 10;
     }
   </style>
 </head>
 <body>
-  <!-- Cloudy Border Overlay -->
-  <div class="cloudy-border"></div>
 
-  <!-- Loading Screen -->
-  <div id="loading-screen">
-    <img src="assets/gifs/doge-running.gif" alt="Loading..." />
-  </div>
+<div class="loading-screen" id="loadingScreen">
+  <img class="doge-gif" src="https://i.imgur.com/U3I6DME.gif" alt="Running Doge">
+  <p>Portfolio Uploading...</p>
+</div>
 
-  <!-- Music Toggle Button -->
-  <button id="music-toggle">Play Music</button>
-
-  <!-- Main Content -->
-  <div id="main-content"></div>
-
-  <!-- Background Music (optional) -->
-  <audio id="bgm" loop>
-    <source src="assets/audio/duvet.mp3" type="audio/mp3">
+<div class="music-player">
+  <!-- Replace YOUR_AUDIO_FILE_URL with the actual audio file URL -->
+  <audio controls autoplay loop>
+    <source src="YOUR_AUDIO_FILE_URL" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+</div>
 
-  <script>
-    const bgm = document.getElementById('bgm');
-    const toggleBtn = document.getElementById('music-toggle');
-    let isPlaying = false;
+<div class="content-box" id="mainContent">
+  <div id="githubContent">Loading content...</div>
+</div>
 
-    toggleBtn.addEventListener('click', () => {
-      if (isPlaying) {
-        bgm.pause();
-        toggleBtn.textContent = 'Play Music';
-      } else {
-        bgm.play();
-        toggleBtn.textContent = 'Pause Music';
-      }
-      isPlaying = !isPlaying;
-    });
-
-    window.addEventListener('load', () => {
-      const loadingScreen = document.getElementById('loading-screen');
-      const mainContent = document.getElementById('main-content');
-
-      loadingScreen.style.opacity = '0';
+<script>
+  window.onload = function() {
+    setTimeout(() => {
+      document.getElementById('loadingScreen').style.opacity = '0';
       setTimeout(() => {
-        loadingScreen.style.display = 'none';
-        mainContent.style.display = 'block';
+        document.getElementById('loadingScreen').style.display = 'none';
+        document.getElementById('mainContent').style.display = 'block';
 
-        fetch('content.html')
+        // Fetch content from GitHub raw URL
+        fetch('https://raw.githubusercontent.com/mcab3/EDM-Portfolio/main/content.txt')
           .then(response => response.text())
-          .then(html => {
-            mainContent.innerHTML = html;
+          .then(data => {
+            document.getElementById('githubContent').innerHTML = data;
           })
           .catch(err => {
-            mainContent.innerHTML = '<p>Error loading content.</p>';
+            document.getElementById('githubContent').innerHTML = 'Failed to load content.';
             console.error(err);
           });
-      }, 600);
-    });
-  </script>
+
+      }, 500);
+    }, 3000);
+  };
+</script>
+
 </body>
 </html>
