@@ -12,7 +12,7 @@ Also, learning through this subject will help me leave few or sufficient ideas i
 ### Education:
 - College: City College of Angeles (BSIS)
 - High School: Holy Angel University, Francisco G. Nepomuceno Memorial Highschool (GAS)
-- Elementary: Achievers Special Education Center
+- Elementary: Achievers Special Education Center ()
 ### My Projects:
 
 **• Midterms Activities:**  
