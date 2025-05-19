@@ -10,9 +10,9 @@ My current goal while in college is to pass every subject and graduate so that I
 Also, learning through this subject will help me leave few or sufficient ideas in the computer world.
 
 ### Education:
-- College: City College of Angeles (BSIS)
-- High School: Holy Angel University, Francisco G. Nepomuceno Memorial Highschool (GAS)
-- Elementary: Achievers Special Education Center ()
+- College: City College of Angeles (Bachelor of Science in Information Systems)
+- High School: Francisco G. Nepomuceno Memorial Highschool (General Academic Strand)
+- Elementary: Achievers Special Education Center (/)
 ### My Projects:
 
 **• Midterms Activities:**  
@@ -26,4 +26,4 @@ Also, learning through this subject will help me leave few or sufficient ideas i
 - Finals Lab Task 3: [Data Manipulation](https://mcab3.github.io/Finals-Lab-Task-3/)  
 - Finals Lab Task 3.1: [Using MYSQL Clause](https://mcab3.github.io/Finals-Lab-Task-3-1/)
 - Finals Lab Task 5: [Views Stored Procedures and Functions](https://mcab3.github.io/Final-Lab-Task-5/)
-- Finals Lab Task 6: [MOngoDBCRUD](https://mcab3.github.io/Final-Lab-Task-5/)
+- Finals Lab Task 6: [MOngoDBCRUD](https://mcab3.github.io/Finals-Lab-Task-6/)
